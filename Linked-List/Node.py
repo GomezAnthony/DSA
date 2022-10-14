@@ -15,7 +15,7 @@ class LinkedList:
 
     def insertAtBeginning(self, data):
         new_node = Node(data) # Create a new node with the given data
-        if self.head == None: # Check is the lest is empty
+        if self.head == None: # Check if to see if the node is empty
             self.head = new_node # This will assign the new node to the head of the linked list
         else:
             new_node.next = self.head # This will point to the current head of the list(The New node to equal to the head)
